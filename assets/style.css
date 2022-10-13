@@ -16,7 +16,7 @@ main {
 #name > h1 {
   margin: 0px;
   font-size: 75px;
-  color: rgb(57, 106, 243);
+  color: #0165e1;
 }
 #name > h3 {
   font-size: 20px;
@@ -38,10 +38,10 @@ main {
 
 #forgotten {
   text-decoration: none;
-  color: rgb(57, 106, 243);
+  color: #0165e1;
 }
 #enter {
-  background-color: rgb(57, 106, 243);
+  background-color: #0165e1;
   color: white;
   appearance: button;
   backface-visibility: hidden;
