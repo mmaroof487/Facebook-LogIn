@@ -89,6 +89,10 @@ main {
 #new:hover {
   background-color: rgb(30, 180, 30);
 }
+input[type="text"]:hover,
+input[type="password"]:hover {
+  border-color: #0165e1;
+}
 @media (max-width: 768px) {
   #name {
     max-width: 80%;
