@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --blue: #0165e1;
+}
 body {
   background-color: rgb(233, 230, 230);
 }
@@ -16,7 +19,7 @@ main {
 #name > h1 {
   margin: 0px;
   font-size: 75px;
-  color: #0165e1;
+  color: var(--blue);
 }
 #name > h3 {
   font-size: 20px;
@@ -38,10 +41,10 @@ main {
 
 #forgotten {
   text-decoration: none;
-  color: #0165e1;
+  color: var(--blue);
 }
 #enter {
-  background-color: #0165e1;
+  background-color: var(--blue);
   color: white;
   appearance: button;
   backface-visibility: hidden;
@@ -91,7 +94,7 @@ main {
 }
 input[type="text"]:hover,
 input[type="password"]:hover {
-  border-color: #0165e1;
+  border-color: var(--blue);
 }
 @media (max-width: 768px) {
   #name {
